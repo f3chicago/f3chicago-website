@@ -9,7 +9,7 @@ import Hero from './_components/Hero';
 
 // #region regional images
 // replace these with your region's own images
-import f3MuletownWhite from '../../public/f3-muletown-white.png';
+import f3MuletownWhite from '../../public/chicago_transp_logo.png';
 import f3HeroImg from '../../public/chicago.jpg';
 // #endregion
 
