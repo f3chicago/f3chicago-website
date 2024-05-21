@@ -10,7 +10,7 @@ import Hero from './_components/Hero';
 // #region regional images
 // replace these with your region's own images
 import f3MuletownWhite from '../../public/f3-muletown-white.png';
-import f3HeroImg from '../../public/F3_open_2023.jpg.webp';
+import f3HeroImg from '../../public/chicago.jpg';
 // #endregion
 
 import f3White from '../../public/f3-white.png';
