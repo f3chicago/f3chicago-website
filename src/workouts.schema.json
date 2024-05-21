@@ -1,13 +1,21 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
-  "required": ["workouts"],
+  "required": [
+    "workouts"
+  ],
   "properties": {
     "workouts": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["ao", "style", "location", "day", "time"],
+        "required": [
+          "ao",
+          "style",
+          "location",
+          "day",
+          "time"
+        ],
         "properties": {
           "ao": {
             "type": "string"
@@ -27,7 +35,10 @@
           },
           "location": {
             "type": "object",
-            "required": ["href", "text"],
+            "required": [
+              "href",
+              "text"
+            ],
             "properties": {
               "href": {
                 "type": "string",
@@ -59,7 +70,8 @@
               "5:20 AM - 6:15 AM",
               "5:25 AM - 6:15 AM",
               "5:30 AM - 6:15 AM",
-              "6:00 AM - 7:00 AM"
+              "6:00 AM - 7:00 AM",
+              "7:00 AM - 8:00 AM"
             ]
           }
         }

@@ -1,13 +1,13 @@
 {
-  "region_name": "F3 Muletown",
+  "region_name": "F3 Chicago",
   "meta_description": "FREE workout group for MEN",
   "hero_title": "ACCELERATE WITH US",
   "hero_subtitle": "FITNESS + FELLOWSHIP + FAITH",
   "pax_count": 100,
-  "region_city": "Columbia",
-  "region_state": "Tennessee",
+  "region_city": "Chicago",
+  "region_state": "Illinois",
   "region_facebook": "https://www.facebook.com/f3muletown",
-  "region_map_lat": 35.6440534,
-  "region_map_lon": -87.095208,
-  "region_map_zoom": 12
+  "region_map_lat": 41.9124822,
+  "region_map_lon": -87.6845955,
+  "region_map_zoom": 14
 }
