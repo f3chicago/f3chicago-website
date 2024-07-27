@@ -1,8 +1,8 @@
 # Introduction
 
-[![Screenshot-2024-05-07-at-10.15.15 AM.jpg](./README/Screenshot-2024-05-07-at-10.15.15 AM.jpg)](https://www.f3muletown.com/)
+[![Chicago](./README/chicago.png)](https://www.f3chicago.com/)
 
-This is the local F3 region website for <https://www.f3muletown.com/> and is currently hosted on Netlify behind a simple Bluehost domain registration.
+This is the local F3 region website for <https://www.f3chicago.com/> and is currently hosted on Netlify behind a simple Bluehost domain registration.
 
 To run it locally for development purposes, you can simply install the dependencies with `npm i` in your local terminal and then run `npm run dev` to access it at `http://localhost:3000`.
 

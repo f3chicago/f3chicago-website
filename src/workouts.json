@@ -2,14 +2,14 @@
   "$schema": "./workouts.schema.json",
   "workouts": [
     {
-      "ao": "The Green Room",
+      "ao": "The Goat Rodeo",
       "style": "Beatdown",
       "location": {
-        "href": "https://maps.app.goo.gl/8sFPZeyxKfrfW1G59",
-        "text": "Humboldt Park Boathouse"
+        "href": "https://maps.app.goo.gl/QFbbEfPYZit8oT639",
+        "text": "Walsh Park Playground"
       },
-      "day": "Tuesday",
-      "time": "5:30 AM - 6:15 AM"
+      "day": "Monday",
+      "time": "6:00 PM - 6:45 PM"
     },
     {
       "ao": "The Goat Rodeo",

@@ -1,24 +1,39 @@
 {
   "type": "object",
-  "required": ["name"],
+  "required": [
+    "name"
+  ],
   "properties": {
     "regionName": {
       "type": "string",
-      "examples": ["Muletown", "Spring Hill", "Sandhills"],
+      "examples": [
+        "Chicago",
+        "Evanston",
+        "Oak Park",
+        "Parks and Wreck"
+      ],
       "maxLength": 50,
       "minLength": 1,
       "pattern": "[A-Z]{1,}.{1,}"
     },
     "cityName": {
       "type": "string",
-      "examples": ["Columbia", "Spring Hill", "Charlotte"],
+      "examples": [
+        "Columbia",
+        "Spring Hill",
+        "Charlotte"
+      ],
       "maxLength": 50,
       "minLength": 1,
       "pattern": "[A-Z]{1,}.{1,}"
     },
     "stateName": {
       "type": "string",
-      "examples": ["Tennessee", "North Carolina", "Florida"],
+      "examples": [
+        "Illinois",
+        "Indiana",
+        "Iowa"
+      ],
       "maxLength": 50,
       "minLength": 1,
       "Pattern": "[A-Z]{1,}.{1,}"

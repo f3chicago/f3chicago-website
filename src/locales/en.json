@@ -6,8 +6,8 @@
   "pax_count": 100,
   "region_city": "Chicago",
   "region_state": "Illinois",
-  "region_facebook": "https://www.facebook.com/f3muletown",
-  "region_map_lat": 41.9124822,
+  "region_facebook": "https://www.facebook.com/f3chicago",
+  "region_map_lat": 41.9729822,
   "region_map_lon": -87.6845955,
-  "region_map_zoom": 14
+  "region_map_zoom": 11
 }

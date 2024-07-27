@@ -5,7 +5,7 @@ import Footer from '../_components/Footer';
 import Hero from '../_components/Hero';
 
 /** replace with a regional image */
-import f3HeroImg from '../../../public/f3-refuge-2023-11-09.jpg';
+import f3HeroImg from '../../../public/f3_zoo_crew_2024_07_27.jpg';
 
 import en from '../../locales/en.json'
 

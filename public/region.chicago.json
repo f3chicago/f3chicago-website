@@ -1,0 +1,7 @@
+{
+    "$id": "chicago",
+    "$schema": "./region.schema.json",
+    "regionName": "Chicago",
+    "cityName": "Chicago",
+    "stateName": "Illinois"
+}
