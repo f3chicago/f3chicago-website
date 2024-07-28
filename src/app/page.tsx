@@ -21,10 +21,10 @@ import en from "../locales/en.json"
 import workouts from '../workouts.json'
 
 // New stuff
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import FormPage from './ContactUsForm/page';
-import SuccessPage from './success/SuccessPage';
+// import React from 'react';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import FormPage from './ContactUsForm/page';
+// import SuccessPage from './success/SuccessPage';
 
 export const metadata: Metadata = {
   title: en.region_name,
@@ -149,14 +149,14 @@ export default function Page() {
       </main>
       <Footer />
       {/* New stuff */}
-      <Router>
+      {/* <Router>
         <div>
           <Routes>
             <Route path="/ContactUsForm" element={<FormPage />} />
             <Route path="/success" element={<SuccessPage />} />
           </Routes>
         </div>
-      </Router>
+      </Router> */}
     </>
   );
 }

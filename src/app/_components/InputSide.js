@@ -75,7 +75,7 @@ const InputSide = () => {
   const messageHandler = (e) => {
     setMessage(e.target.value);
   };
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const handleSubmit = async (e) => {
     e.preventDefault();
     const response = await fetch('https://formspree.io/f/mdknepkq', {
