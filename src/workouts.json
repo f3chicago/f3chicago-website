@@ -3,7 +3,7 @@
   "workouts": [
     {
       "ao": "The Goat Rodeo",
-      "style": "Beatdown",
+      "style": "Bootcamp",
       "location": {
         "href": "https://maps.app.goo.gl/QFbbEfPYZit8oT639",
         "text": "Walsh Park Playground"
@@ -13,7 +13,7 @@
     },
     {
       "ao": "The Goat Rodeo",
-      "style": "Beatdown",
+      "style": "Bootcamp",
       "location": {
         "href": "https://maps.app.goo.gl/QFbbEfPYZit8oT639",
         "text": "Walsh Park Playground"
@@ -23,7 +23,7 @@
     },
     {
       "ao": "Dip City",
-      "style": "Beatdown",
+      "style": "Bootcamp",
       "location": {
         "href": "https://maps.app.goo.gl/CYDyc1QZSFXXVodZA",
         "text": "Lake Shore Park (near pull-up bars)"
@@ -33,10 +33,230 @@
     },
     {
       "ao": "Zoo Crew",
-      "style": "Beatdown",
+      "style": "Bootcamp",
       "location": {
         "href": "https://maps.app.goo.gl/efZUZrRbCm67gPbE7",
         "text": "East side of Clark & Armitage"
+      },
+      "day": "Saturday",
+      "time": "7:00 AM - 8:00 AM"
+    },
+    {
+      "ao": "The Patriot",
+      "style": "Bootcamp",
+      "location": {
+        "href": "https://maps.app.goo.gl/ZkBpzAwkq8TMr7DA8",
+        "text": "Near the playground"
+      },
+      "day": "Wednesday",
+      "time": "6:00 AM - 6:45 AM"
+    },
+    {
+      "ao": "The Crown",
+      "style": "Bootcamp",
+      "location": {
+        "href": "https://maps.app.goo.gl/JprJGPNsHVng3vq3A",
+        "text": "In front of the main entrance"
+      },
+      "day": "Friday",
+      "time": "6:00 AM - 7:00 AM"
+    },
+    {
+      "ao": "The Weekly Grind",
+      "style": "Ruck & Run",
+      "location": {
+        "href": "https://maps.app.goo.gl/1mXb7fXk5XYPgn968",
+        "text": "In front of Brothers K"
+      },
+      "day": "Tuesday",
+      "time": "6:00 AM - 7:00 AM"
+    },
+    {
+      "ao": "The Hill",
+      "style": "Run",
+      "location": {
+        "href": "https://maps.app.goo.gl/X4BXrT85pbAm2D7v7",
+        "text": "Mulford Street (South) entrance"
+      },
+      "day": "Saturday",
+      "time": "7:00 AM - 8:00 AM"
+    },
+    {
+      "ao": "The Commodore",
+      "style": "Ruck & Run",
+      "location": {
+        "href": "https://maps.app.goo.gl/wP6HNTK6XMBhhsYX7",
+        "text": "Hubbard Woods"
+      },
+      "day": "Sunday",
+      "time": "7:00 AM - 8:00 AM"
+    },
+    {
+      "ao": "Chernobyl",
+      "style": "Bootcamp",
+      "location": {
+        "href": "https://maps.app.goo.gl/q7XYEsFgPXjMfSZg8",
+        "text": "Barrie Park"
+      },
+      "day": "Sunday",
+      "time": "7:00 AM - 7:45 AM"
+    },
+    {
+      "ao": "City Limits",
+      "style": "Bootcamp",
+      "location": {
+        "href": "https://maps.app.goo.gl/7PiDRynv6kkUDqDv6",
+        "text": "Columbus Park"
+      },
+      "day": "Monday",
+      "time": "5:30 AM - 6:15 AM"
+    },
+    {
+      "ao": "The Arena",
+      "style": "Bootcamp",
+      "location": {
+        "href": "https://maps.app.goo.gl/DN76xSTf1Lv3vsNp7",
+        "text": "Roosevelt Middle School"
+      },
+      "day": "Monday",
+      "time": "5:30 AM - 6:15 AM"
+    },
+    {
+      "ao": "Wreck Center",
+      "style": "Bootcamp",
+      "location": {
+        "href": "https://maps.app.goo.gl/FPuastRrW9j7LXKT6",
+        "text": "Ridgeland Common"
+      },
+      "day": "Monday",
+      "time": "6:30 AM - 7:15 AM"
+    },
+    {
+      "ao": "The Combine",
+      "style": "Bootcamp",
+      "location": {
+        "href": "https://maps.app.goo.gl/UgHYH7nzyTL159kG6",
+        "text": "Kribi Coffee"
+      },
+      "day": "Tuesday",
+      "time": "5:30 AM - 6:30 AM"
+    },
+    {
+      "ao": "Lil Tundra",
+      "style": "Run",
+      "location": {
+        "href": "https://maps.app.goo.gl/mSaBasoVsj3tx9XB7",
+        "text": "Longfellow Park"
+      },
+      "day": "Tuesday",
+      "time": "5:45 AM - 6:30 AM"
+    },
+    {
+      "ao": "Donut Shop",
+      "style": "Coupons",
+      "location": {
+        "href": "https://maps.app.goo.gl/AnpW4DRvBmXQ2oqk7",
+        "text": "Pligrim Congregational Church"
+      },
+      "day": "Wednesday",
+      "time": "5:30 AM - 6:15 AM"
+    },
+    {
+      "ao": "The Nunnery (June - August)",
+      "style": "Coupons",
+      "location": {
+        "href": "https://maps.app.goo.gl/LYNSRypZvwDSkZ4G9",
+        "text": "Priory Park"
+      },
+      "day": "Wednesday",
+      "time": "5:30 AM - 6:15 AM"
+    },
+    {
+      "ao": "The Nunnery (September - May)",
+      "style": "Coupons",
+      "location": {
+        "href": "https://maps.app.goo.gl/pf5xCPHPgnHgJJjR8",
+        "text": "Trinity High School"
+      },
+      "day": "Wednesday",
+      "time": "5:30 AM - 6:15 AM"
+    },
+    {
+      "ao": "The Tundra",
+      "style": "Coupons",
+      "location": {
+        "href": "https://maps.app.goo.gl/bMs2gYw7g1Rk3P8g6",
+        "text": "Lindberg Park"
+      },
+      "day": "Wednesday",
+      "time": "6:30 AM - 7:15 AM"
+    },
+    {
+      "ao": "The Krib",
+      "style": "Ruck",
+      "location": {
+        "href": "https://maps.app.goo.gl/xgdMKLd2Teywew6x5",
+        "text": "Kribi Coffee"
+      },
+      "day": "Thursday",
+      "time": "5:30 AM - 6:30 AM"
+    },
+    {
+      "ao": "The Den",
+      "style": "Bootcamp",
+      "location": {
+        "href": "https://maps.app.goo.gl/mq6C534ST8QbBHtf7",
+        "text": "Carroll Park"
+      },
+      "day": "Thursday",
+      "time": "6:00 AM - 6:45 AM"
+    },
+    {
+      "ao": "Eagles Landing",
+      "style": "Run",
+      "location": {
+        "href": "https://maps.app.goo.gl/UpSc3gQwKf5GXJ8KA",
+        "text": "Irving School"
+      },
+      "day": "Friday",
+      "time": "5:30 AM - 6:15 AM"
+    },
+    {
+      "ao": "The Oven",
+      "style": "Bootcamp",
+      "location": {
+        "href": "https://maps.app.goo.gl/UzCHMLdb1atcqKf3A",
+        "text": "Roos Rec Center"
+      },
+      "day": "Friday",
+      "time": "5:30 AM - 6:15 AM"
+    },
+    {
+      "ao": "Wreck Center",
+      "style": "Run",
+      "location": {
+        "href": "https://maps.app.goo.gl/FPuastRrW9j7LXKT6",
+        "text": "Ridgeland Common"
+      },
+      "day": "Friday",
+      "time": "6:30 AM - 7:15 AM"
+    },
+    {
+      "ao": "Rising Sun",
+      "style": "Ruck",
+      "location": {
+        "href": "https://maps.app.goo.gl/FPuastRrW9j7LXKT6",
+        "text": "Ridgeland Common"
+      },
+      "day": "Saturday",
+      "time": "6:00 AM - 7:00 AM"
+    },
+    {
+      "ao": "Wreck Center",
+      "style": "Bootcamp",
+      "location": {
+        "href": "https://maps.app.goo.gl/FPuastRrW9j7LXKT6",
+        "text": "Ridgeland Common"
       },
       "day": "Saturday",
       "time": "7:00 AM - 8:00 AM"

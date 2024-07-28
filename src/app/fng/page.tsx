@@ -4,7 +4,6 @@ import Header from '../_components/Header';
 import Footer from '../_components/Footer';
 import Hero from '../_components/Hero';
 
-/** replace with a regional image */
 import f3HeroImg from '../../../public/f3_zoo_crew_2024_07_27.jpg';
 
 import en from '../../locales/en.json'
@@ -32,7 +31,7 @@ export default function Page() {
           <p className="text-cmu pt-5">
             So, you got past{' '}
             <Link
-              href="https://f3nation.com/top-five-eh-excuses/"
+              href="https://old.f3nation.com/top-five-eh-excuses/"
               target="_blank"
             >
               our favorite excuses

@@ -25,9 +25,12 @@
             "enum": [
               "Murph",
               "Beatdown",
+              "Bootcamp",
+              "Coupons",
               "Run",
               "Trail Run",
               "Ruck",
+              "Ruck & Run",
               "Rucks & Sandbags",
               "Weight Lifting",
               "3rd F (Faith)"
@@ -70,7 +73,12 @@
               "5:20 AM - 6:15 AM",
               "5:25 AM - 6:15 AM",
               "5:30 AM - 6:15 AM",
+              "5:30 AM - 6:30 AM",
+              "5:45 AM - 6:30 AM",
+              "6:00 AM - 6:45 AM",
               "6:00 AM - 7:00 AM",
+              "6:30 AM - 7:15 AM",
+              "7:00 AM - 7:45 AM",
               "7:00 AM - 8:00 AM",
               "6:00 PM - 6:45 PM"
             ]
