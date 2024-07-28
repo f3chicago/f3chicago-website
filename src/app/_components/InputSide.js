@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 
 const InputSideWrapper = styled.form`
@@ -88,7 +88,7 @@ const InputSide = () => {
 
     if (response.ok) {
       setButtonLoading(false);
-      navigate('../success');
+      // navigate('../success');
     } else {
       setButtonLoading(false);
       alert('Failed to submit form');

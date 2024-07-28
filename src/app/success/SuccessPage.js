@@ -3,6 +3,13 @@ import * as Icon from 'react-feather';
 import { Fade } from 'react-awesome-reveal';
 import styled from 'styled-components';
 
+import Link from 'next/link';
+
+import Header from '../_components/Header';
+import Footer from '../_components/Footer';
+import en from '../../locales/en.json'
+import Head from 'next/head';
+
 const MessageWrapper = styled.div`
   margin-top: 150px;
   display: flex;
@@ -20,8 +27,9 @@ const SuccessMessage = styled.h2`
 `;
 
 const SuccessPage = () => {
+  const href = '/success'
   return (
-    <React.Fragment>
+    <><Header href={href} /><React.Fragment>
       <Fade bottom duration={700} distance="60px">
         <MessageWrapper>
           <Icon.CheckCircle color="rgb(8, 8, 63)" style={{ width: 50, height: 50 }} />
@@ -29,6 +37,7 @@ const SuccessPage = () => {
         </MessageWrapper>
       </Fade>
     </React.Fragment>
+    <Footer /></>
   );
 };
 

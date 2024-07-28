@@ -37,6 +37,15 @@ export default function Page() {
   return (
     <>
       <Header href={href} />
+      {/* New stuff */}
+      {/* <Router>
+        <div>
+          <Routes>
+            <Route path="/ContactUsForm" element={<FormPage />} />
+            <Route path="/success" element={<SuccessPage />} />
+          </Routes>
+        </div>
+      </Router> */}
       <main>
         <Hero
           title={en.hero_title}
@@ -148,15 +157,6 @@ export default function Page() {
         </section>
       </main>
       <Footer />
-      {/* New stuff */}
-      {/* <Router>
-        <div>
-          <Routes>
-            <Route path="/ContactUsForm" element={<FormPage />} />
-            <Route path="/success" element={<SuccessPage />} />
-          </Routes>
-        </div>
-      </Router> */}
     </>
   );
 }
