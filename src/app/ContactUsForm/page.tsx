@@ -68,47 +68,45 @@ function FormPage() {
   }
   const href = '/ContactUsForm'
   return (
-    <><Header href={href} /><PageWrapper>
-      <FormContainer>
-        <DetailsBar />
-        <form style={{ height: "auto", paddingBottom: 100 + "px", position: "relative", padding: "10px 10px 100px 10px" }} onSubmit={handleSubmit}>
-          <InputWrapper>
-            <label htmlFor="Name">
-              Name
-            </label>
-            <Input type="text" placeholder="Name" />
-            <ValidationError
-              prefix="Name"
-              field="name"
-              errors={state.errors}
-            />
-          </InputWrapper>
-          <InputWrapper>
-            <label htmlFor="email">
-              Email Address
-            </label>
-            <Input type="email" placeholder="Email Address" />
-            <ValidationError
-              prefix="Email"
-              field="email"
-              errors={state.errors}
-            />
-          </InputWrapper>
-          <InputWrapper>
-            <p>Message</p>
-            <MessageInput placeholder="Write your message" />
-            <ValidationError
-              prefix="Message"
-              field="message"
-              errors={state.errors}
-            />
-          </InputWrapper>
-          <button style={{ position: "absolute", bottom: 20 + "px", right: 20 + "px", padding: 10 + "px", backgroundColor: "rgb(8, 8, 63)", color: "#fff", border: "none", borderRadius: 5 + "px", cursor: "pointer" }} type="submit" disabled={state.submitting}>
-            Submit
-          </button>
-        </form>
-      </FormContainer>
-    </PageWrapper >
+    <>
+      <Header href={href} />
+      <PageWrapper>
+        <FormContainer>
+          <DetailsBar />
+          <form style={{ height: "auto", paddingBottom: 100 + "px", position: "relative", padding: "10px 10px 100px 10px" }} onSubmit={handleSubmit}>
+            <InputWrapper>
+              <label htmlFor="name">Name</label>
+              <Input type="text" name="name" placeholder="Name" />
+              <ValidationError
+                prefix="Name"
+                field="name"
+                errors={state.errors}
+              />
+            </InputWrapper>
+            <InputWrapper>
+              <label htmlFor="email">Email Address</label>
+              <Input type="email" name="email" placeholder="Email Address" />
+              <ValidationError
+                prefix="Email"
+                field="email"
+                errors={state.errors}
+              />
+            </InputWrapper>
+            <InputWrapper>
+              <label htmlFor="message">Message</label>
+              <MessageInput name="message" placeholder="Write your message" />
+              <ValidationError
+                prefix="Message"
+                field="message"
+                errors={state.errors}
+              />
+            </InputWrapper>
+            <button style={{ position: "absolute", bottom: 20 + "px", right: 20 + "px", padding: 10 + "px", backgroundColor: "rgb(8, 8, 63)", color: "#fff", border: "none", borderRadius: 5 + "px", cursor: "pointer" }} type="submit" disabled={state.submitting}>
+              Submit
+            </button>
+          </form>
+        </FormContainer>
+      </PageWrapper >
       <Footer /></>
   );
 }
