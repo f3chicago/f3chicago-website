@@ -6,9 +6,9 @@ import f3White from '../../../public/f3-white.png';
 export default function Header({ href }: { href: string }) {
   const pages = [
     // { href: "/", text: "HOME" },
-    { href: '/fng', text: 'NEW TO F3 [FNG]' },
-    { href: '/workouts', text: 'WORKOUTS [AO]' },
-    { href: '/ContactUsForm', text: 'Contact Us' },
+    { href: '/fng', text: 'NEW TO F3' },
+    { href: '/workouts', text: 'WORKOUT LOCATIONS' },
+    { href: '/ContactUsForm', text: 'CONTACT US' },
     // { href: '/convergence', text: 'CONVERGENCE [HC]' },
   ];
 

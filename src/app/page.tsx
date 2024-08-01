@@ -20,12 +20,6 @@ import CorePrinciple from './_components/CorePrinciple';
 import en from "../locales/en.json"
 import workouts from '../workouts.json'
 
-// New stuff
-// import React from 'react';
-// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-// import FormPage from './ContactUsForm/page';
-// import SuccessPage from './success/SuccessPage';
-
 export const metadata: Metadata = {
   title: en.region_name,
   description: en.meta_description,
@@ -37,15 +31,6 @@ export default function Page() {
   return (
     <>
       <Header href={href} />
-      {/* New stuff */}
-      {/* <Router>
-        <div>
-          <Routes>
-            <Route path="/ContactUsForm" element={<FormPage />} />
-            <Route path="/success" element={<SuccessPage />} />
-          </Routes>
-        </div>
-      </Router> */}
       <main>
         <Hero
           title={en.hero_title}
@@ -65,7 +50,7 @@ export default function Page() {
           <Image
             src={f3MuletownWhite}
             alt={`${en.region_name} White`}
-            width={200}
+            width={800}
             className="pt-8 pb-4 my-0 mx-auto"
           />
         </section>
