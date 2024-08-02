@@ -82,7 +82,7 @@ const DetailsBar = () => {
     <DetailsBarWrapper>
       <TextWrapper>
         <TextOne>Contact Information</TextOne>
-        <TextTwo>Fill out the form and our team will get back to you within 24 hours</TextTwo>
+        <TextTwo>Fill out the form and we'll get back with you ASAP.</TextTwo>
       </TextWrapper>
       <div>
         <ContactsWrapper href="mailto:f3chicago@gmail.com">
@@ -91,14 +91,17 @@ const DetailsBar = () => {
         </ContactsWrapper>
       </div>
 
-      <SocialsWrapper>
+      {/* <SocialsWrapper>
         <SocialIconWrapper href="https://www.facebook.com/f3chicago">
           <Icon.Facebook color="#fff" size={20} />
+        </SocialIconWrapper>
+        <SocialIconWrapper href="https://www.twitter.com/f3chicago/">
+          <Icon.Twitter color="#fff" size={20} />
         </SocialIconWrapper>
         <SocialIconWrapper href="https://www.instagram.com/f3chicago/">
           <Icon.Instagram color="#fff" size={20} />
         </SocialIconWrapper>
-      </SocialsWrapper>
+      </SocialsWrapper> */}
     </DetailsBarWrapper>
   );
 };

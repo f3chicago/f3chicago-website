@@ -1,17 +1,14 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
-import Link from 'next/link';
+// import Link from 'next/link';
 
 import Header from './_components/Header';
 import Footer from './_components/Footer';
 import Button from './_components/Button';
 import Hero from './_components/Hero';
 
-// #region regional images
-// replace these with your region's own images
 import f3MuletownWhite from '../../public/chicago_transp_logo.png';
 import f3HeroImg from '../../public/chicago.jpg';
-// #endregion
 
 import f3White from '../../public/f3-white.png';
 import f3ShovelFlag from '../../public/f3-shovel-flag.png';
