@@ -82,7 +82,7 @@ const DetailsBar = () => {
     <DetailsBarWrapper>
       <TextWrapper>
         <TextOne>Contact Information</TextOne>
-        <TextTwo>Fill out the form and we'll get back with you ASAP.</TextTwo>
+        <TextTwo>Fill out the form and we will get back with you ASAP.</TextTwo>
       </TextWrapper>
       <div>
         <ContactsWrapper href="mailto:f3chicago@gmail.com">
