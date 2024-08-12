@@ -33,7 +33,7 @@ export default function Page() {
       <main>
         <Hero
           title="WORKOUTS"
-          subtitle="FREE BEATDOWNS 6X/WEEK"
+          subtitle="FREE WORKOUTS 7X/WEEK"
           imgUrl={f3HeroImg.src}
         />
         <section className={`bg-iron leading-tight py-16 px-4`}>
