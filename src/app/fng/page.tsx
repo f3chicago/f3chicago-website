@@ -1,12 +1,12 @@
 import Link from 'next/link';
-
 import Header from '../_components/Header';
 import Footer from '../_components/Footer';
 import Hero from '../_components/Hero';
-
 import f3HeroImg from '../../../public/f3_zoo_crew_2024_07_27.jpg';
-
 import en from '../../locales/en.json'
+
+import "./styles.css";
+import YoutubeEmbed from "../_components/YoutubeEmbed";
 
 export default function Page() {
   const href = '/fng';
@@ -54,6 +54,12 @@ export default function Page() {
             in our community.&quot;
           </p>
           <p className="text-cmu pt-5">(DREDD, F3 Founder)</p>
+        </section>
+        <section className={'bg-iron leading-tight py-16 px-4'}>
+          <h2>WHAT IS F3?</h2>
+          <div className="App">
+            <YoutubeEmbed embedId="rokGy0huYEA" />
+          </div>
         </section>
         <section className={`bg-iron leading-tight py-16 px-4`}>
           <h2>TIPS FOR YOUR FIRST WORKOUT</h2>

@@ -3,6 +3,7 @@ import Image from 'next/image';
 import fb from '../../../public/fb.svg';
 import x from '../../../public/twitter-x.svg';
 import ig from '../../../public/instagram.svg';
+import yt from '../../../public/yt_logo_mono_dark.png'
 
 import en from '../../locales/en.json'
 
@@ -38,6 +39,15 @@ export default function Footer() {
             alt="Instagram"
             width={35}
             height={35}
+            className="my-0 mx-auto mt-5"
+          />
+        </a>
+        <a href={en.region_youtube} target="_blank" className="btn btn-outline btn-floating m-1" role="button">
+          <Image
+            src={yt.src}
+            alt="YouTube"
+            width={90}
+            height={90}
             className="my-0 mx-auto mt-5"
           />
         </a>

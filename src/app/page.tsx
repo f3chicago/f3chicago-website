@@ -59,18 +59,18 @@ export default function Page() {
               public spaces around {en.region_city}, {en.region_state}.
             </p>
             <p className="pb-10 font-bold">
-              We hold {workouts.workouts.length}+ workouts in {en.region_city} each week. Weekday workouts are
+              We hold {workouts.workouts.length}+ workouts in and around {en.region_city} each week. Weekday workouts are
               generally 45 MIN & 60 MIN on Saturday and Sunday.
             </p>
           </div>
           <div>
             <h3 className="pb-6">A PART OF</h3>
             <p className="pb-6">
-              F3 Nation, a network of 3,275 free, peer-led workouts for men in
-              252 regions with a mission to:
+              <a href="https://www.f3nation.com" target="blank">F3 Nation</a>, a network of nearly 5,000 free, peer-led workouts for men in
+              over 300 regions with a mission to:
             </p>
             <p className="font-bold pb-6">
-              plant, grow and serve small workout groups for men invigorating
+              plant, grow and serve small workout groups for men, invigorating
               male community leadership.
             </p>
           </div>
@@ -87,7 +87,7 @@ export default function Page() {
           <ul className="pt-10">
             <CorePrinciple
               principle="Free of Charge"
-              description="Never pay to workout, ever."
+              description="Never pay to work out, ever."
             />
             <CorePrinciple
               principle="Open to all Men"
@@ -95,7 +95,7 @@ export default function Page() {
             />
             <CorePrinciple
               principle="Held Outdoors"
-              description="Rain or Shine, Hot or Cold, we are out there."
+              description="Rain or shine, hot or cold, we are out there."
             />
             <CorePrinciple
               principle="Peer Led"
