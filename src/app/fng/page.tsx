@@ -55,12 +55,20 @@ export default function Page() {
           </p>
           <p className="text-cmu pt-5">(DREDD, F3 Founder)</p>
         </section>
-        <section className={'bg-iron leading-tight py-16 px-4'}>
-          <h2>WHAT IS F3?</h2>
+
+
+        <section className={"bg-gloom py-16 px-4"}>
+          <div className="shadow-xl">
+            <h2 className="leading-none">
+              <span className="opacity-70">WHAT IS</span>
+              <span className="block text-5xl py-5">{en.region_name}?</span>
+            </h2>
+          </div>
           <div className="App">
             <YoutubeEmbed embedId="rokGy0huYEA" />
           </div>
         </section>
+
         <section className={`bg-iron leading-tight py-16 px-4`}>
           <h2>TIPS FOR YOUR FIRST WORKOUT</h2>
           <ul className="w-10/12 my-0 mx-auto">
@@ -113,7 +121,7 @@ export default function Page() {
             <hr className="my-5" />
           </ul>
         </section>
-      </main>
+      </main >
       <Footer />
     </>
   );

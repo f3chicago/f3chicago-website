@@ -6,11 +6,11 @@
 }
 
 .video-responsive iframe {
-    left: 25%;
-    top: 25%;
-    bottom: 25%;
-    height: 50%;
-    width: 50%;
+    left: 20%;
+    top: 5%;
+    bottom: 0%;
+    height: 60%;
+    width: 60%;
     position: absolute;
     justify-content: center;
 }
