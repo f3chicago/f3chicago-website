@@ -59,14 +59,14 @@ export default function Page() {
               public spaces around {en.region_city}, {en.region_state}.
             </p>
             <p className="pb-10 font-bold">
-              We hold {workouts.workouts.length}+ workouts in and around {en.region_city} each week. Weekday workouts are
+              We hold {workouts.workouts.length}+ workouts in {en.region_city}, Evanston and Oak Park each week. Weekday workouts are
               generally 45 MIN & 60 MIN on Saturday and Sunday.
             </p>
           </div>
           <div>
             <h3 className="pb-6">A PART OF</h3>
             <p className="pb-6">
-              <a href="https://www.f3nation.com" target="blank">F3 Nation</a>, a network of nearly 5,000 free, peer-led workouts for men in
+              <a href="https://www.f3nation.com" target="_blank">F3 Nation</a>, a network of nearly 5,000 free, peer-led workouts for men in
               over 300 regions with a mission to:
             </p>
             <p className="font-bold pb-6">

@@ -44,7 +44,7 @@ export default function Page() {
             open to men of all ages.
           </p>
           <p className="text-cmu pt-5 pb-10">
-            Find a workout location [AO] below.
+            Find a workout location [AO] in <a href="WHOLE SHEET F3 Flyer FIVE_6.23.pdf" target="_blank" rel="noopener noreferrer">{en.region_city}</a>, <a href="F3Evanston - 2023 AO List.pdf" target="_blank" rel="noopener noreferrer">Evanston</a> and <a href="F3 Parks and Wreck Flyer Updated June 2024.pdf" target="_blank" rel="noopener noreferrer">Oak Park</a> below.
           </p>
           <iframe
             src={mapUrl}
