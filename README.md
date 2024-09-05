@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/107adb18-0cb0-40d0-a701-6baa7b9daca0/deploy-status)](https://app.netlify.com/sites/gleeful-beijinho-903835/deploys)
+
 # Introduction
 
 [![Chicago](./README/chicago.png)](https://www.f3chicago.com/)
