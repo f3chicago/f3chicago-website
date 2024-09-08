@@ -7,7 +7,7 @@ import Footer from './_components/Footer';
 import Button from './_components/Button';
 import Hero from './_components/Hero';
 
-import f3MuletownWhite from '../../public/chicago_transp_logo.png';
+import f3ChicagoWhite from '../../public/chicago_transp_logo.png';
 import f3HeroImg from '../../public/chicago.jpg';
 
 import f3White from '../../public/f3-white.png';
@@ -45,7 +45,7 @@ export default function Page() {
             </p>
           </div>
           <Image
-            src={f3MuletownWhite}
+            src={f3ChicagoWhite}
             alt={`${en.region_name} White`}
             width={800}
             className="pt-8 pb-4 my-0 mx-auto"
