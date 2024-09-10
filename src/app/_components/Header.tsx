@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import f3White from '../../../public/f3-white.png';
+import f3White from '../../../public/f3-white.webp';
 
 export default function Header({ href }: { href: string }) {
   const pages = [

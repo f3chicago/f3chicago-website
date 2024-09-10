@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Header from '../_components/Header';
 import Footer from '../_components/Footer';
 import Hero from '../_components/Hero';
-import f3HeroImg from '../../../public/f3_zoo_crew_2024_07_27.jpg';
+import f3HeroImg from '../../../public/f3_zoo_crew_2024_07_27.webp';
 import en from '../../locales/en.json'
 
 import "./styles.css";

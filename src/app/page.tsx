@@ -7,11 +7,11 @@ import Footer from './_components/Footer';
 import Button from './_components/Button';
 import Hero from './_components/Hero';
 
-import f3ChicagoWhite from '../../public/chicago_transp_logo.png';
-import f3HeroImg from '../../public/chicago.jpg';
+import f3ChicagoWhite from '../../public/chicago_transp_logo.webp';
+import f3HeroImg from '../../public/chicago.webp';
 
-import f3White from '../../public/f3-white.png';
-import f3ShovelFlag from '../../public/f3-shovel-flag.png';
+import f3White from '../../public/f3-white.webp';
+import f3ShovelFlag from '../../public/f3-shovel-flag.webp';
 import CorePrinciple from './_components/CorePrinciple';
 
 import en from "../locales/en.json"
