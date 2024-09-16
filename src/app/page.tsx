@@ -17,6 +17,7 @@ import CorePrinciple from './_components/CorePrinciple';
 import en from "../locales/en.json"
 import workouts from '../workouts.json'
 
+
 export const metadata: Metadata = {
   title: en.region_name,
   description: en.meta_description,
