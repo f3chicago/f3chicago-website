@@ -260,6 +260,16 @@
       },
       "day": "Saturday",
       "time": "7:00 AM - 8:00 AM"
+    },
+    {
+      "ao": "The Conspiracy",
+      "style": "Bootcamp",
+      "location": {
+        "href": "https://maps.app.goo.gl/f2kLJP1NF9i5rtmb6",
+        "text": "OPRF High School Track"
+      },
+      "day": "Saturday",
+      "time": "7:00 AM - 8:00 AM"
     }
   ]
 }
