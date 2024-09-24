@@ -10,7 +10,7 @@ To run it locally for development purposes, you can simply install the dependenc
 
 It's auto-deployed on commits to the `main` branch.
 
-For context, this was heavily inspired with some copy/paste magic from F3 Boise's "Backslash" and F3 Twin Cities' "Lotus" via the F3 Nation Slack. This was also made available for broad use by F3 Muletown.
+For context, this was heavily inspired with some copy/paste magic from F3 Boise's "Backslash" and F3 Twin Cities' "Lotus" via the F3 Nation Slack. This was also made available for broad use by F3 Muletown!
 
 - <https://f3boise.com/>
 - <https://f3twincities.com/>
