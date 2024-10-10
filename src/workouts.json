@@ -270,6 +270,16 @@
       },
       "day": "Saturday",
       "time": "7:00 AM - 8:00 AM"
+    },
+    {
+      "ao": "Graphite",
+      "style": "Bootcamp",
+      "location": {
+        "href": "https://maps.app.goo.gl/q7XYEsFgPXjMfSZg8",
+        "text": "Barrie Park"
+      },
+      "day": "Sunday",
+      "time": "6:15 AM - 7:00 AM"
     }
   ]
 }
