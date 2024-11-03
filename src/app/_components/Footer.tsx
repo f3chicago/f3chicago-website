@@ -4,6 +4,7 @@ import fb from '../../../public/fb.svg';
 import x from '../../../public/twitter-x.svg';
 import ig from '../../../public/instagram.svg';
 import yt from '../../../public/yt_logo_mono_dark.png'
+import th from '../../../public/Threads-Brand-Resource-Center/01 White/Logo/threads-logo-white.svg'
 
 import en from '../../locales/en.json'
 
@@ -39,6 +40,15 @@ export default function Footer() {
             alt="Instagram"
             width={35}
             height={35}
+            className="my-0 mx-auto mt-5"
+          />
+        </a>
+        <a href={en.region_threads} target="_blank" className="btn btn-outline btn-floating m-1" role="button">
+          <Image
+            src={th.src}
+            alt="Threads"
+            width={27}
+            height={27}
             className="my-0 mx-auto mt-5"
           />
         </a>
