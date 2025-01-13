@@ -280,6 +280,16 @@
       },
       "day": "Sunday",
       "time": "6:15 AM - 7:00 AM"
+    },
+    {
+      "ao": "The Deep End",
+      "style": "Kettlebells",
+      "location": {
+        "href": "https://maps.app.goo.gl/hti3Z6gvyisapz967",
+        "text": "Rehm Park"
+      },
+      "day": "Monday",
+      "time": "5:30 AM - 6:15 AM"
     }
   ]
 }
