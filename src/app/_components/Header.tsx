@@ -24,9 +24,9 @@ export default function Header({ href }: { href: string }) {
         />
       </Link>
       <nav className="uppercase">
-        <ul>
+        <ul className="flex flex-row justify-center gap-4">
           {pages.map((p, i) => (
-            <li key={i} className={i < pages.length ? 'pt-2' : ''}>
+            <li key={i} className={` ${i < pages.length ? 'pt-2' : ''} inline-block`}>
               <Link
                 href={p.href}
                 title={p.text}
