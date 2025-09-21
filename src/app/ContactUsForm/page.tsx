@@ -19,7 +19,7 @@ export default function ContactUsPage() {
           <section className="bg-gloom py-16 px-4 min-h-[70vh] flex items-center justify-center">
             <div className="bg-white rounded-lg p-8 max-w-lg w-full text-center">
               <h2 className="text-4xl mb-4">Thank You!</h2>
-              <p className="text-xl text-gray-700">Your message has been sent successfully. We will get back to you soon.</p>
+                <p className="text-xl text-gray-700">Your message has been sent successfully. We&apos;ll get back to you soon.</p>
             </div>
           </section>
         </main>
