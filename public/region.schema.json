@@ -19,9 +19,9 @@
     "cityName": {
       "type": "string",
       "examples": [
-        "Columbia",
+        "Chicago",
         "Spring Hill",
-        "Charlotte"
+        "Evanston"
       ],
       "maxLength": 50,
       "minLength": 1,
