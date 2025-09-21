@@ -7,8 +7,7 @@ import Link from 'next/link';
 
 import Header from '../_components/Header';
 import Footer from '../_components/Footer';
-import en from '../../locales/en.json'
-import Head from 'next/head';
+import en from '../../locales/en.json';
 
 const MessageWrapper = styled.div`
   margin-top: 150px;
@@ -27,17 +26,25 @@ const SuccessMessage = styled.h2`
 `;
 
 const SuccessPage = () => {
-  const href = '/success'
+  const href = '/success';
   return (
-    <><Header href={href} /><React.Fragment>
-      <Fade bottom duration={700} distance="60px">
-        <MessageWrapper>
-          <Icon.CheckCircle color="rgb(8, 8, 63)" style={{ width: 50, height: 50 }} />
-          <SuccessMessage className="sucess-message">INFO SENT SUCCESSFULLY</SuccessMessage>
-        </MessageWrapper>
-      </Fade>
-    </React.Fragment>
-    <Footer /></>
+    <>
+      <Header href={href} />
+      <React.Fragment>
+        <Fade bottom duration={700} distance="60px">
+          <MessageWrapper>
+            <Icon.CheckCircle
+              color="rgb(8, 8, 63)"
+              style={{ width: 50, height: 50 }}
+            />
+            <SuccessMessage className="sucess-message">
+              INFO SENT SUCCESSFULLY
+            </SuccessMessage>
+          </MessageWrapper>
+        </Fade>
+      </React.Fragment>
+      <Footer />
+    </>
   );
 };
 
