@@ -71,7 +71,7 @@ export default function Page() {
           </p>
 
           <h3 className="text-2xl pt-10 pb-3">Tips for Success</h3>
-          <ol className="list-decimal pl-5 text-cmu space-y-3">
+          <ol className="list-decimal list-inside text-cmu space-y-3">
             <li><strong>Stack it with an existing habit</strong> – Do it right after your morning coffee or before your shower</li>
             <li><strong>Break it into chunks</strong> – 10 rounds of 10-20-30 is easier mentally than staring down 600 total reps</li>
             <li><strong>Recruit a partner</strong> – Text a PAX member when you're done each day for accountability</li>
