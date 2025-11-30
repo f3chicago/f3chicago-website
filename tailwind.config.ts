@@ -1,6 +1,6 @@
 import type { Config } from 'tailwindcss';
 import defaultTheme from 'tailwindcss/defaultTheme';
-import colors from './src/colors.json';
+import colors from './src/data/colors.json';
 
 const config: Config = {
   content: [
