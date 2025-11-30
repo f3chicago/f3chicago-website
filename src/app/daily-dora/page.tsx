@@ -19,7 +19,7 @@ export default function Page() {
         <section className={`bg-gloom leading-tight py-16 px-4`}>
           <h2 className="text-5xl">WHAT IS DAILY DORA?</h2>
           <p className="text-cmu pt-5">
-            Daily Dora is {en.region_name}'s annual physical fitness program launching in 2026. 
+            Daily Dora is {en.region_name}&rsquo;s annual physical fitness program launching in 2026. 
             This is a structured, year-long challenge designed to build strength, consistency, and 
             community as we collectively work toward fitness goals.
           </p>
@@ -74,8 +74,8 @@ export default function Page() {
           <ol className="list-decimal list-inside text-cmu space-y-3">
             <li><strong>Stack it with an existing habit</strong> – Do it right after your morning coffee or before your shower</li>
             <li><strong>Break it into chunks</strong> – 10 rounds of 10-20-30 is easier mentally than staring down 600 total reps</li>
-            <li><strong>Recruit a partner</strong> – Text a PAX member when you're done each day for accountability</li>
-            <li><strong>Don't break the chain</strong> – Mark an X on a calendar every day you complete it. The chain becomes motivation.</li>
+            <li><strong>Recruit a partner</strong> – Text a PAX member when you&rsquo;re done each day for accountability</li>
+            <li><strong>Don&rsquo;t break the chain</strong> – Mark an X on a calendar every day you complete it. The chain becomes motivation.</li>
             <li><strong>Plan for travel</strong> – Hotel room, airport terminal, rest stop – no excuses</li>
           </ol>
 
@@ -108,8 +108,8 @@ export default function Page() {
 
           <h3 className="text-2xl pt-10 pb-3">The Bottom Line</h3>
           <p className="text-cmu pt-3">
-            This is 365 days of showing up. Some days you'll crush it. Some days you'll grind through it. 
-            But every day, you'll finish it. That's what separates the HIMs from the spectators.
+            This is 365 days of showing up. Some days you&rsquo;ll crush it. Some days you&rsquo;ll grind through it. 
+            But every day, you&rsquo;ll finish it. That&rsquo;s what separates the HIMs from the spectators.
           </p>
         </section>
 
