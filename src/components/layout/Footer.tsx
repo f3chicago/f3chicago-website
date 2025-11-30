@@ -1,12 +1,12 @@
 import Image from 'next/image';
 
-import fb from '../../../public/fb.svg';
-import x from '../../../public/twitter-x.svg';
-import ig from '../../../public/instagram.svg';
-import yt from '../../../public/yt_logo_mono_dark.png'
-import th from '../../../public/Threads-Brand-Resource-Center/01 White/Logo/threads-logo-white.svg'
+import fb from '@/../public/fb.svg';
+import x from '@/../public/twitter-x.svg';
+import ig from '@/../public/instagram.svg';
+import yt from '@/../public/yt_logo_mono_dark.png'
+import th from '@/../public/Threads-Brand-Resource-Center/01 White/Logo/threads-logo-white.svg'
 
-import en from '../../locales/en.json'
+import en from '@/locales/en.json'
 
 export default function Footer() {
   return (

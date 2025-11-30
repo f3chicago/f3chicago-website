@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import styled from 'styled-components';
 import * as Icon from 'react-feather';
@@ -49,7 +51,6 @@ const ContactsWrapper = styled.a`
 
 const ContactText = styled.div`
   color: #fff;
-
   font-size: 15px;
   margin-left: 10px;
 `;
@@ -57,9 +58,7 @@ const ContactText = styled.div`
 const SocialsWrapper = styled.div`
   display: flex;
   justify-content: center;
-  display: flex;
   height: 10px;
-  justify-content: center;
   bottom: 30px;
   position: absolute;
   cursor: pointer;
@@ -77,7 +76,7 @@ const SocialIconWrapper = styled.a`
   }
 `;
 
-const DetailsBar = () => {
+export default function DetailsBar() {
   return (
     <DetailsBarWrapper>
       <TextWrapper>
@@ -104,6 +103,4 @@ const DetailsBar = () => {
       </SocialsWrapper> */}
     </DetailsBarWrapper>
   );
-};
-
-export default DetailsBar;
+}

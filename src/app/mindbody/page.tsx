@@ -1,10 +1,10 @@
-import Header from '../_components/Header';
-import Footer from '../_components/Footer';
-import Hero from '../_components/Hero';
+import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
+import Hero from '@/components/common/Hero';
 
-import f3HeroImg from '../../../public/f3-darkhorse-2023-11-04.jpg';
-import Button from '../_components/Button';
-import shelter from '../../../public/Henry Horton Shelter 2.jpg';
+import f3HeroImg from '@/../public/f3-darkhorse-2023-11-04.jpg';
+import Button from '@/components/common/Button';
+import shelter from '@/../public/Henry Horton Shelter 2.jpg';
 import Image from 'next/image';
 
 /**

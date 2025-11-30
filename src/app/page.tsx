@@ -1,21 +1,20 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
-// import Link from 'next/link';
 
-import Header from './_components/Header';
-import Footer from './_components/Footer';
-import Button from './_components/Button';
-import Hero from './_components/Hero';
+import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
+import Button from '@/components/common/Button';
+import Hero from '@/components/common/Hero';
+import CorePrinciple from '@/components/features/CorePrinciples/CorePrinciple';
 
-import f3ChicagoWhite from '../../public/chicago_transp_logo.webp';
-import f3HeroImg from '../../public/chicago.webp';
+import f3ChicagoWhite from '@/../public/chicago_transp_logo.webp';
+import f3HeroImg from '@/../public/chicago.webp';
 
-import f3White from '../../public/f3-white.webp';
-import f3ShovelFlag from '../../public/f3-shovel-flag.webp';
-import CorePrinciple from './_components/CorePrinciple';
+import f3White from '@/../public/f3-white.webp';
+import f3ShovelFlag from '@/../public/f3-shovel-flag.webp';
 
-import en from "../locales/en.json"
-import workouts from '../workouts.json'
+import en from '@/locales/en.json'
+import workouts from '@/data/workouts.json'
 
 
 export const metadata: Metadata = {

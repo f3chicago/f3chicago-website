@@ -1,20 +1,20 @@
 import Link from 'next/link';
 
-import Header from '../_components/Header';
-import Footer from '../_components/Footer';
-import Hero from '../_components/Hero';
-import Button from '../_components/Button';
+import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
+import Hero from '@/components/common/Hero';
+import Button from '@/components/common/Button';
 import WorkoutCard, {
   workoutsTomorrow,
   workoutsAnotherDay,
-} from '../_components/WorkoutCard';
+} from '@/components/features/Workouts/WorkoutCard';
 
 /** replace with a regional image */
-// import f3HeroImg from '../../../public/f3_green_room_sunrise_2024.webp';
-import f3HeroImg from '../../../public/IMG_1116.webp';
+// import f3HeroImg from '@/../public/f3_green_room_sunrise_2024.webp';
+import f3HeroImg from '@/../public/IMG_1116.webp';
 
-import en from '../../locales/en.json'
-import workouts from '../../workouts.json';
+import en from '@/locales/en.json'
+import workouts from '@/data/workouts.json';
 
 const _workouts = workouts.workouts;
 

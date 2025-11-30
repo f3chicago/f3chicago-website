@@ -1,12 +1,12 @@
 import Link from 'next/link';
-import Header from '../_components/Header';
-import Footer from '../_components/Footer';
-import Hero from '../_components/Hero';
-import f3HeroImg from '../../../public/f3_zoo_crew_2024_07_27.webp';
-import en from '../../locales/en.json'
+import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
+import Hero from '@/components/common/Hero';
+import YoutubeEmbed from '@/components/common/YoutubeEmbed';
+import f3HeroImg from '@/../public/f3_zoo_crew_2024_07_27.webp';
+import en from '@/locales/en.json'
 
 import "./styles.css";
-import YoutubeEmbed from "../_components/YoutubeEmbed";
 
 export default function Page() {
   const href = '/fng';

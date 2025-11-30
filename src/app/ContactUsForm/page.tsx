@@ -2,10 +2,10 @@
 
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
-import Header from '../_components/Header';
-import Footer from '../_components/Footer';
-import Hero from '../_components/Hero';
-import f3HeroImg from '../../../public/f3_green_room_sunrise_2024.webp';
+import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
+import Hero from '@/components/common/Hero';
+import f3HeroImg from '@/../public/f3_green_room_sunrise_2024.webp';
 
 export default function ContactUsPage() {
   const [state, handleSubmit] = useForm("mdknepkq");

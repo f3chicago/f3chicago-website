@@ -1,9 +1,9 @@
-import Header from '../_components/Header';
-import Footer from '../_components/Footer';
-import Hero from '../_components/Hero';
-import Button from '../_components/Button';
-import f3HeroImg from '../../../public/chicago.webp';
-import en from '../../locales/en.json'
+import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
+import Hero from '@/components/common/Hero';
+import Button from '@/components/common/Button';
+import f3HeroImg from '@/../public/chicago.webp';
+import en from '@/locales/en.json'
 
 export default function Page() {
   const href = '/daily-dora';
