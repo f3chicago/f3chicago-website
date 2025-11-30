@@ -24,7 +24,7 @@ export default function Page() {
             community as we collectively work toward fitness goals.
           </p>
           <p className="text-cmu pt-5">
-            Whether you're a regular at our AOs or new to the fitness journey, Daily Dora provides 
+            Whether you&rsquo;re a regular at our AOs or new to the fitness journey, Daily Dora provides 
             a framework for progression and accountability throughout the year.
           </p>
         </section>
@@ -32,7 +32,7 @@ export default function Page() {
         <section className={`bg-iron leading-tight py-16 px-4`}>
           <h2>THE DAILY DORA 1-2-3 CHALLENGE</h2>
           <p className="text-cmu pt-5 text-white font-semibold">
-            Starting January 1st, 2026, we're kicking off the Daily Dora 1-2-3 Challenge – 
+            Starting January 1st, 2026, we&rsquo;re kicking off the Daily Dora 1-2-3 Challenge &ndash; 
             a year-long commitment to consistent fitness and accountability. This is about showing up 
             every single day and putting in the work, no matter where you are or what else is going on.
           </p>
@@ -67,7 +67,7 @@ export default function Page() {
             </li>
           </ul>
           <p className="text-cmu pt-5">
-            You can rotate combinations or stick with one – your call. Just get it done.
+            You can rotate combinations or stick with one &ndash; your call. Just get it done.
           </p>
 
           <h3 className="text-2xl pt-10 pb-3">Tips for Success</h3>
@@ -84,7 +84,7 @@ export default function Page() {
             <strong>Post in our Slack channel:</strong>
           </p>
           <ul className="list-none pl-0 text-cmu pt-3">
-            <li>• Daily check-ins (even just "✓ Day 47 complete")</li>
+            <li>• Daily check-ins (even just &quot;✓ Day 47 complete&quot;)</li>
             <li>• Weekly summaries with your combo and any wins/struggles</li>
             <li>• Monthly milestone celebrations (30 days, 60 days, etc.)</li>
           </ul>
@@ -99,11 +99,11 @@ export default function Page() {
 
           <h3 className="text-2xl pt-10 pb-3">Motivational Fuel</h3>
           <ul className="list-none pl-0 text-cmu italic space-y-2 pt-3">
-            <li>"The only bad workout is the one you didn't do."</li>
-            <li>"Discipline is choosing between what you want now and what you want most."</li>
-            <li>"You don't have to be great to start, but you have to start to be great."</li>
-            <li>"Success is the sum of small efforts repeated day in and day out."</li>
-            <li>"When you feel like quitting, remember why you started."</li>
+            <li>&quot;The only bad workout is the one you didn&rsquo;t do.&quot;</li>
+            <li>&quot;Discipline is choosing between what you want now and what you want most.&quot;</li>
+            <li>&quot;You don&rsquo;t have to be great to start, but you have to start to be great.&quot;</li>
+            <li>&quot;Success is the sum of small efforts repeated day in and day out.&quot;</li>
+            <li>&quot;When you feel like quitting, remember why you started.&quot;</li>
           </ul>
 
           <h3 className="text-2xl pt-10 pb-3">The Bottom Line</h3>
@@ -117,13 +117,13 @@ export default function Page() {
           <h2>WHO CAN PARTICIPATE?</h2>
           <p className="text-cmu pt-5">
             Daily Dora is for every man in {en.region_name}. No matter your fitness level, age, or 
-            experience with F3, you can participate. The beauty of F3 is that you control the difficulty—
+            experience with F3, you can participate. The beauty of F3 is that you control the difficulty&mdash;
             modify as needed to challenge yourself appropriately.
           </p>
           <p className="text-cmu pt-5">
-            Our Q's will be familiar with Daily Dora and ready to help you understand the workouts and 
+            Our Q&rsquo;s will be familiar with Daily Dora and ready to help you understand the workouts and 
             how to scale them to your level. When you show up, let them know you want to participate in 
-            Daily Dora and they'll guide you.
+            Daily Dora and they&rsquo;ll guide you.
           </p>
         </section>
 
