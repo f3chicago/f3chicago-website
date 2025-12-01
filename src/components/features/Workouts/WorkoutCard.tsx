@@ -1,25 +1,35 @@
 import Link from 'next/link';
 import { WorkoutCardProps, WorkoutDays, WorkoutTimes, WorkoutStyles } from '@/types/workout';
 
+// Pre-computed day and time maps for O(1) lookup instead of O(n) indexOf
+const DAY_MAP = {
+  [WorkoutDays.SUNDAY]: 0,
+  [WorkoutDays.MONDAY]: 1,
+  [WorkoutDays.TUESDAY]: 2,
+  [WorkoutDays.WEDNESDAY]: 3,
+  [WorkoutDays.THURSDAY]: 4,
+  [WorkoutDays.FRIDAY]: 5,
+  [WorkoutDays.THIRD_FRIDAY]: 5.5,
+  [WorkoutDays.SATURDAY]: 6,
+  [WorkoutDays.SATURDAY_EXCEPT_LAST]: 6.5,
+} as const;
+
+const TIME_MAP: Record<string, number> = Object.values(WorkoutTimes).reduce(
+  (acc, time, idx) => ({ ...acc, [time]: idx }),
+  {}
+);
+
 export function sortWorkouts(workouts: WorkoutCardProps[]) {
   const decimalPrecision = 100;
   return workouts.sort((a, b) => {
+    const dayA = DAY_MAP[a.day as keyof typeof DAY_MAP] ?? 99;
+    const dayB = DAY_MAP[b.day as keyof typeof DAY_MAP] ?? 99;
+    const timeA = TIME_MAP[a.time] ?? 999;
+    const timeB = TIME_MAP[b.time] ?? 999;
     return (
-      dayToNumber(a.day) +
-      timeToNumber(a.time) / decimalPrecision -
-      (dayToNumber(b.day) + timeToNumber(b.time) / decimalPrecision)
+      dayA + timeA / decimalPrecision - (dayB + timeB / decimalPrecision)
     );
   });
-}
-
-function dayToNumber(day: string) {
-  const daysList = Object.values(WorkoutDays);
-  return daysList.indexOf(day as typeof daysList[number]);
-}
-
-function timeToNumber(time: string) {
-  const timesList = Object.values(WorkoutTimes);
-  return timesList.indexOf(time as typeof timesList[number]);
 }
 
 export function workoutsTomorrow(workouts: WorkoutCardProps[]) {

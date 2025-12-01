@@ -20,7 +20,6 @@
     "react-dom": "^18",
     "react-feather": "^2.0.10",
     "sharp": "^0.33.5",
-    "styled-components": "^6.1.12",
     "tailwind-merge": "^2.2.1"
   },
   "devDependencies": {

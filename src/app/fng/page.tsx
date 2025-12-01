@@ -6,7 +6,7 @@ import YoutubeEmbed from '@/components/common/YoutubeEmbed';
 import f3HeroImg from '@/../public/f3_zoo_crew_2024_07_27.webp';
 import en from '@/locales/en.json'
 
-import "./styles.css";
+import './styles.css';
 
 export default function Page() {
   const href = '/fng';

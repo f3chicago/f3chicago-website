@@ -25,7 +25,7 @@ src/
 │   ├── mindbody/
 │   │   └── page.tsx
 │   ├── success/
-│   │   └── SuccessPage.js
+│   │   └── page.tsx
 │   └── workouts/
 │       └── page.tsx
 │

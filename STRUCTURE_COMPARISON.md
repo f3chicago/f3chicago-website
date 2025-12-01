@@ -23,8 +23,7 @@ src/
 │   ├── daily-dora/page.tsx
 │   ├── fng/page.tsx
 │   ├── mindbody/page.tsx
-│   ├── success/
-│   │   └── SuccessPage.js
+│   ├── success/page.tsx
 │   └── workouts/page.tsx
 │
 ├── colors.json              ❌ Data at root level

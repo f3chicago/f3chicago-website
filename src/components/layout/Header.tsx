@@ -2,16 +2,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import f3White from '@/../public/f3-white.webp';
+import { navigationConfig } from '@/config/navigation';
 
 export default function Header({ href }: { href: string }) {
-  const pages = [
-    // { href: "/", text: "HOME" },
-    { href: '/fng', text: 'NEW TO F3' },
-    { href: '/workouts', text: 'WORKOUT LOCATIONS' },
-    { href: '/daily-dora', text: 'DAILY CHALLENGE' },
-    { href: '/ContactUsForm', text: 'CONTACT US' },
-    // { href: '/convergence', text: 'CONVERGENCE [HC]' },
-  ];
+  const pages = navigationConfig.pages;
 
   return (
     <header className="p-5 text-center">
